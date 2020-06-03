@@ -6,3 +6,11 @@
 //
 
 import ArgumentParser
+
+struct Secrets: ParsableCommand {
+
+    static let configuration = CommandConfiguration(abstract: "256-bit AES encryption and decryption.", subcommands: [Encrypt.self, Decrypt.self])
+
+}
+
+Secrets.main()
