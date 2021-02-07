@@ -1,7 +1,3 @@
-<p align="center">
-    <img src="Logo.png" width="250", max-width="100%"/>
-</p>
-
 **Secrets** is a command line utility for 256-bit AES encryption and decryption. Easily protect snippets of information or individual files from unauthorized access.
 
 ## Usage
